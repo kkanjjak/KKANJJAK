@@ -1,0 +1,13 @@
+npm  -> nodejs package manager
+
+pm2 -> package 중 매~~우 유용하게 쓰이는 아이임... 서버가 내려가면 자동으로 다시 켜주고 코드가 변경되었을 때 서버를 재부팅하지 않아도 반영되도록 해줌.
+
+
+pm2 start main.js  -> 실행
+pm2 start main.js --watch    -> 실행 후 코드 변경 시 자동 재실행
+pm2 monit -> 모니터링
+pm2 list -> 실행 중인 목록 표시
+
+pm2 log -> 원래 오류 생길 시 바로 보여주지만, pm2 watch로 작동 시 볼 수 없음. pm2 log 실행 시 오류 부분 알려줌.
+
+pm2 stop main.js

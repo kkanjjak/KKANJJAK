@@ -1,0 +1,15 @@
+<form action="http://localhost:3000/process_create" method="post">
+    <p><input type='text' name="title"></p>
+    <p>
+        <textarea name="description"></textarea>
+    </p>
+    <p>
+        <input type="submit">
+    </p>
+</form>
+
+<!-- form 태그 -> 각각의 name(컨트롤) 입력값을 제출(submit) 버튼을 눌러 action의 위치로 전송. -->
+
+<!-- 서버로부터 사용자가 정보를 받을 때는 get 방식 method='get'또는 method 생략
+
+정보 작성, 수정, 삭제 등 -> 반드시 method='post' -->
