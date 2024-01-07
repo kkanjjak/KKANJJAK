@@ -1,4 +1,4 @@
-### Hi there 👋
+### won1214kr@naver.com 👋
 
 <!--
 **kkanjjak/KKANJJAK** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
